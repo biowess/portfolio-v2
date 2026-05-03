@@ -6,6 +6,7 @@ import type { Transition, Variants } from 'motion/react';
 export const spring = {
   gentle:  { type: 'spring', stiffness: 80,  damping: 20, mass: 1   } as Transition,
   snappy:  { type: 'spring', stiffness: 150, damping: 25, mass: 0.8 } as Transition,
+  bouncy: { type: 'spring', stiffness: 260, damping: 12, mass: 0.9 } as Transition,
   precise: { type: 'spring', stiffness: 170, damping: 40, mass: 0.8 } as Transition,
   slow:    { type: 'spring', stiffness: 60,  damping: 28, mass: 1.5 } as Transition,
   smooth:  { type: 'spring', stiffness: 90,  damping: 32, mass: 1   } as Transition,
